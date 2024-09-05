@@ -13,7 +13,6 @@ export function Cell({
 }) {
   return (
     <div
-      className="Cell"
       style={{
         backgroundColor: generateRandomColor(),
         width: pxWidth / width,

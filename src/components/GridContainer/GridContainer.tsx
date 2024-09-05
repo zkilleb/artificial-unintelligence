@@ -9,8 +9,8 @@ export function GridContainer() {
 
   const handleInputChange = (value: string) => {
     if (value) {
-      if (parseInt(value) > 300) {
-        return 300;
+      if (parseInt(value) > 500) {
+        return 500;
       }
       return parseInt(value);
     } else {
