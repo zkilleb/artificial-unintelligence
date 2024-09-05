@@ -1,0 +1,16 @@
+.TextFieldContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2%;
+}
+
+.TextField {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.ButtonContainer {
+  display: flex;
+  margin-top: 5%;
+  justify-content: center;
+}

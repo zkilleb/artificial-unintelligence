@@ -1,0 +1,37 @@
+.Header {
+  width: 100%;
+  height: 4.5em;
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.AppBar {
+  border: none !important;
+}
+
+.HeaderContainer {
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+
+.RightLinksContainer {
+  margin-left: auto;
+  margin-right: 3%;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.CenterLogoContainer {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
